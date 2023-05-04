@@ -11,7 +11,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
         // url с которого будут приходить запросы, нужно будет поменять на гитхаб
-        origin: "http://localhost:3000/",
+        origin: "http://localhost:3000",
         methods:["GET","POST"],
     }
 })
@@ -27,7 +27,6 @@ io.on("connection", (socket) => {
     socket.on("send-message",(data) => {
        socket.to(data.room).emit("receive-message",data)
     })
-
     socket.on("disconnect", () => {
         console.log("user disconnected", socket.id)
     })
