@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Redligstone/chat/static/css/main.42d04a22.css",
-    "main.js": "/Redligstone/chat/static/js/main.61d06d41.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/Redligstone/chat/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/Redligstone/chat/index.html",
-    "main.42d04a22.css.map": "/Redligstone/chat/static/css/main.42d04a22.css.map",
-    "main.61d06d41.js.map": "/Redligstone/chat/static/js/main.61d06d41.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/Redligstone/chat/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/chat/static/css/main.42d04a22.css",
+    "main.js": "/chat/static/js/main.05c9c3ea.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/chat/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/chat/index.html",
+    "main.42d04a22.css.map": "/chat/static/css/main.42d04a22.css.map",
+    "main.05c9c3ea.js.map": "/chat/static/js/main.05c9c3ea.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/chat/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42d04a22.css",
-    "static/js/main.61d06d41.js"
+    "static/js/main.05c9c3ea.js"
   ]
 }
