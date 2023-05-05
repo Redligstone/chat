@@ -10,8 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors:{
-        // url с которого будут приходить запросы, нужно будет поменять на гитхаб
-        origin: "http://localhost:3000",
+        origin: ["http://localhost:3000", "https://redligstone.github.io/chat/"],
         methods:["GET","POST"],
     }
 })
